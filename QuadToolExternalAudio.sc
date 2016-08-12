@@ -6,6 +6,10 @@ QuadToolExternalAudioClass.sc
 NOTES:
 ======
 
+TO-DO:
+======
+   Add a volume sequence
+
 */
 
 QuadToolExternalAudio : QuadToolPdef {
@@ -18,7 +22,7 @@ QuadToolExternalAudio : QuadToolPdef {
 
 		configObject = ExternalAudioConfig.new(controllerAddr, targetPrefix, type);
 		toneObject = ToneGeneratorExternalAudio.new(configObject);
-		// toneSource = toneObject.getGenerator; // ??? FIXME
+		toneSource = toneObject.getGenerator;
 
 		this.initAzModPat;
 		this.initialize(configObject);
