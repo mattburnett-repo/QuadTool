@@ -1,7 +1,7 @@
 # QuadTool
 Repository for QuadTool SuperCollider files
 
-All files copyright 2016 Matthew Burnett (mb@mattburnettmusic.com)
+All files copyright 2016 Matthew Burnett (mburnett@tutanota.de)
 
 This repository exists only for the purpose of storing/versioning the code for the QuadTool.
 Everything as-is; I cannot provide maintenance or support. 
